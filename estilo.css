@@ -1,10 +1,36 @@
 body {
     margin: 0;
-    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
 
-    background-image: url("images/fondo.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 40px;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #004999;
 }
